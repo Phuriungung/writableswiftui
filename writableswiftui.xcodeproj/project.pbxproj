@@ -11,14 +11,22 @@
 		5001739D2A9DF45000A01CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5001739C2A9DF45000A01CFC /* ContentView.swift */; };
 		5001739F2A9DF45100A01CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5001739E2A9DF45100A01CFC /* Assets.xcassets */; };
 		500173A22A9DF45100A01CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500173A12A9DF45100A01CFC /* Preview Assets.xcassets */; };
+		500A46E22A9F2DEB00E301D6 /* Connectuitoswiftui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A46E12A9F2DEB00E301D6 /* Connectuitoswiftui.swift */; };
+		502EAD6F2A9EEEC0004821C0 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502EAD6E2A9EEEC0004821C0 /* Path.swift */; };
+		AFC6B1F0B733F3B231645A7E /* Pods_writableswiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEF62BA112741C53BC22FA0 /* Pods_writableswiftui.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DCEB2DEBE76B589B5228A1D /* Pods-writableswiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-writableswiftui.debug.xcconfig"; path = "Target Support Files/Pods-writableswiftui/Pods-writableswiftui.debug.xcconfig"; sourceTree = "<group>"; };
 		500173972A9DF45000A01CFC /* writableswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = writableswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5001739A2A9DF45000A01CFC /* writableswiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writableswiftuiApp.swift; sourceTree = "<group>"; };
 		5001739C2A9DF45000A01CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5001739E2A9DF45100A01CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500173A12A9DF45100A01CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		500A46E12A9F2DEB00E301D6 /* Connectuitoswiftui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectuitoswiftui.swift; sourceTree = "<group>"; };
+		502EAD6E2A9EEEC0004821C0 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		F898B603426F9EADC41EA768 /* Pods-writableswiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-writableswiftui.release.xcconfig"; path = "Target Support Files/Pods-writableswiftui/Pods-writableswiftui.release.xcconfig"; sourceTree = "<group>"; };
+		FBEF62BA112741C53BC22FA0 /* Pods_writableswiftui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_writableswiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +34,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC6B1F0B733F3B231645A7E /* Pods_writableswiftui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DFB920E6EED2B777943314 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DCEB2DEBE76B589B5228A1D /* Pods-writableswiftui.debug.xcconfig */,
+				F898B603426F9EADC41EA768 /* Pods-writableswiftui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5001738E2A9DF45000A01CFC = {
 			isa = PBXGroup;
 			children = (
 				500173992A9DF45000A01CFC /* writableswiftui */,
 				500173982A9DF45000A01CFC /* Products */,
+				08DFB920E6EED2B777943314 /* Pods */,
+				7DF36C1103B3BEF307130963 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +71,10 @@
 		500173992A9DF45000A01CFC /* writableswiftui */ = {
 			isa = PBXGroup;
 			children = (
-				5001739A2A9DF45000A01CFC /* writableswiftuiApp.swift */,
 				5001739C2A9DF45000A01CFC /* ContentView.swift */,
+				5001739A2A9DF45000A01CFC /* writableswiftuiApp.swift */,
+				500A46E12A9F2DEB00E301D6 /* Connectuitoswiftui.swift */,
+				502EAD6E2A9EEEC0004821C0 /* Path.swift */,
 				5001739E2A9DF45100A01CFC /* Assets.xcassets */,
 				500173A02A9DF45100A01CFC /* Preview Content */,
 			);
@@ -67,6 +89,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7DF36C1103B3BEF307130963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBEF62BA112741C53BC22FA0 /* Pods_writableswiftui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 500173A52A9DF45100A01CFC /* Build configuration list for PBXNativeTarget "writableswiftui" */;
 			buildPhases = (
+				0FAFE2442012B3D7285C1B56 /* [CP] Check Pods Manifest.lock */,
 				500173932A9DF45000A01CFC /* Sources */,
 				500173942A9DF45000A01CFC /* Frameworks */,
 				500173952A9DF45000A01CFC /* Resources */,
+				9590D4D074AA0A295BAEA692 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +164,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FAFE2442012B3D7285C1B56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-writableswiftui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9590D4D074AA0A295BAEA692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-writableswiftui/Pods-writableswiftui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-writableswiftui/Pods-writableswiftui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-writableswiftui/Pods-writableswiftui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		500173932A9DF45000A01CFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5001739D2A9DF45000A01CFC /* ContentView.swift in Sources */,
+				500A46E22A9F2DEB00E301D6 /* Connectuitoswiftui.swift in Sources */,
+				502EAD6F2A9EEEC0004821C0 /* Path.swift in Sources */,
 				5001739B2A9DF45000A01CFC /* writableswiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +337,7 @@
 		};
 		500173A62A9DF45100A01CFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DCEB2DEBE76B589B5228A1D /* Pods-writableswiftui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +367,7 @@
 		};
 		500173A72A9DF45100A01CFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F898B603426F9EADC41EA768 /* Pods-writableswiftui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,16 @@
+PODS:
+  - BezierKit (0.15.0)
+
+DEPENDENCIES:
+  - BezierKit (>= 0.15.0)
+
+SPEC REPOS:
+  trunk:
+    - BezierKit
+
+SPEC CHECKSUMS:
+  BezierKit: d68854dbfb20e5b6ecc48a9aeb78070d5ea781bb
+
+PODFILE CHECKSUM: a0b87e3bdd06c0fc15160e01a1e9fe6a012c9c15
+
+COCOAPODS: 1.12.1
